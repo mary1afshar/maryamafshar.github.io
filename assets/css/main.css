@@ -197,15 +197,21 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.25rem;
-		line-height: 1.3;
-		letter-spacing: 0.5rem;
+		font-size: 4rem;
+		line-height: 2;
+		letter-spacing: 1.3rem;
+		color: #add8e6;
+
+
 	}
 
 	h2 {
 		font-size: 1.5rem;
 		line-height: 1.4;
 		letter-spacing: 0.5rem;
+		color: #add8e6 ;
+
+		
 	}
 
 	h3 {
@@ -214,6 +220,7 @@ input, select, textarea {
 
 	h4 {
 		font-size: 0.8rem;
+		color: #87ceeb;
 	}
 
 	h5 {
@@ -221,7 +228,9 @@ input, select, textarea {
 	}
 
 	h6 {
-		font-size: 0.6rem;
+		font-size: 1.0rem;
+		color:  #add8e6;
+
 	}
 
 	@media screen and (max-width: 736px) {
@@ -229,11 +238,13 @@ input, select, textarea {
 		h1 {
 			font-size: 1.75rem;
 			line-height: 1.4;
+			color: #aec6cf ;
 		}
 
 		h2 {
 			font-size: 1.25em;
 			line-height: 1.5;
+			color: #aec6cf ;
 		}
 
 	}
@@ -897,15 +908,18 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		color: #87ceeb;
 	}
 
 		ul.icons li {
 			display: inline-block;
 			padding: 0 0.75em 0 0;
+			color: #87ceeb;
 		}
 
 			ul.icons li:last-child {
 				padding-right: 0;
+				color: #87ceeb;
 			}
 
 			ul.icons li a {
@@ -916,14 +930,17 @@ input, select, textarea {
 				line-height: 2.25rem;
 				text-align: center;
 				width: 2.25rem;
+				color: #87ceeb;
 			}
 
 				ul.icons li a:hover {
 					background-color: rgba(25, 25, 25, 0.075);
+					color: #87ceeb;
 				}
 
 				ul.icons li a:active {
 					background-color: rgba(255, 255, 255, 0.175);
+					color: #87ceeb;
 				}
 
 /* Table */
@@ -1009,9 +1026,9 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: transparent;
-		border-radius: 4px;
-		border: 0;
+		background-color: 	#72848e;
+		border: none;
+		border-radius: 1px;
 		box-shadow: inset 0 0 0 1px #ffffff;
 		color: #ffffff !important;
 		cursor: pointer;
@@ -1027,6 +1044,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		margin: center;
 	}
 
 		input[type="submit"]:hover,
@@ -1294,6 +1312,7 @@ input, select, textarea {
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			
 		}
 
 			#header .logo .icon:before {
@@ -1309,7 +1328,7 @@ input, select, textarea {
 		}
 
 			#header .content .inner {
-				-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
+				-moz-transition: max-height 1.0s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				-ms-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
@@ -1348,10 +1367,12 @@ input, select, textarea {
 			#header nav ul li {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
+				
 			}
 
 				#header nav ul li:first-child {
 					border-left: 0;
+					
 				}
 
 				#header nav ul li a {
@@ -1363,15 +1384,18 @@ input, select, textarea {
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
-					border-bottom: 0;
+					border-bottom: 0;bold
+					
 				}
 
 					#header nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
+						
 					}
 
 					#header nav ul li a:active {
 						background-color: rgba(255, 255, 255, 0.175);
+						
 					}
 
 		#header nav.use-middle:after {
@@ -1419,7 +1443,7 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1000px) {
 
 			#header .content p br {
 				display: none;
@@ -1427,7 +1451,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 800px) {
 
 			#header > * {
 				margin-top: 2rem;
@@ -1458,7 +1482,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 500px) {
 
 			#header {
 				padding: 1.5rem 0;
