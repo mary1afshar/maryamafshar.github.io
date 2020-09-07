@@ -156,8 +156,6 @@ body{
   -webkit-transition: all 0.4s ease-in-out 0s;
   -moz-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
-  min-width: 320px;
-  max-width: 500px;
 }
 
 .content:hover .content-overlay{
