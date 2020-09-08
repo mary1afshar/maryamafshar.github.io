@@ -350,18 +350,18 @@ body{
 
 }
 
+
 @media screen and (max-width: 500px){
-	.container{
-		grid-template-columns: repeat(2, 1fr);
+	.container2{
+		grid-template-columns: repeat(3, 3fr);
 		padding: 2rem 50px;
 	}
 }
 
-@media screen and (max-width: 500px){
-	.container{
-		grid-template-columns: 1fr;
+@media screen and (max-width: 260px){
+	.container2{
+		grid-template-columns: repeat(1, 1fr);
 		padding: 2rem 50px;
-		min-width: 320px;
 	}
 }
 /*hover*/
