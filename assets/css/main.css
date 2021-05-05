@@ -209,7 +209,7 @@ body{
 
 /* Animation */
 .anim-typewriter{
-	animation: typewriter 3.3s steps(40) 1s 1 normal both,
+	animation: typewriter 3.7s steps(40) 1s 1 normal both,
 	blinkTextCursor 500ms steps(40) infinite normal;
 	
 }
@@ -219,7 +219,7 @@ body{
 		width: 0;
 	}
 	to{
-		width: 13em;
+		width: 17em;
 	}
 }
 
