@@ -113,6 +113,21 @@ h1.effect-shine:hover {
   }
 }
 
+/* button */
+
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+
+.button4 {border-radius: 12px;}
+
 /* project containers */
 
 body{
@@ -232,6 +247,18 @@ body{
 	}
 }
 
+
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+  
 /*hover*/
 p.impact {
   font-family: "Lucida Console", Courier, monospace;
@@ -965,6 +992,8 @@ h4.ex4:hover, b.ex4:active{
 						ul.actions:not(.fixed) li .button.icon:before {
 							margin-left: -0.5em;
 						}
+
+						
 
 		}
 
@@ -1766,3 +1795,5 @@ h4.ex4:hover, b.ex4:active{
   		height: 100%;
 		}
 
+
+		
